@@ -122,7 +122,11 @@
       </Button>
 
       <!-- Pages Tabs -->
-      <v:LauncherTabBar Grid.Column="3" Height="30" Margin="0,0,16,0" VerticalAlignment="Bottom"/>
+      <v:LauncherTabBar Grid.Column="3"
+                        Height="30"
+                        Margin="0,0,16,0"
+                        VerticalAlignment="Bottom"
+                        IsVisible="{Binding Source={x:Static vm:Preferences.Instance}, Path=UseVerticalTabs, Mode=OneWay, Converter={x:Static BoolConverters.Not}}"/>
 
       <!-- Update Available Button -->
       <Button Grid.Column="4"
@@ -143,13 +147,19 @@
     </Grid>
 
     <!-- Page -->
-    <ContentControl Grid.Row="1" Content="{Binding ActivePage}" Background="{DynamicResource Brush.Window}">
-      <ContentControl.DataTemplates>
-        <DataTemplate DataType="vm:LauncherPage">
-          <v:LauncherPage/>
-        </DataTemplate>
-      </ContentControl.DataTemplates>
-    </ContentControl>
+    <DockPanel Grid.Row="1">
+      <!-- Vertical Pages Tabs -->
+      <v:LauncherVerticalTabBar DockPanel.Dock="Left"
+                                IsVisible="{Binding Source={x:Static vm:Preferences.Instance}, Path=UseVerticalTabs, Mode=OneWay}"/>
+
+      <ContentControl Content="{Binding ActivePage}" Background="{DynamicResource Brush.Window}">
+        <ContentControl.DataTemplates>
+          <DataTemplate DataType="vm:LauncherPage">
+            <v:LauncherPage/>
+          </DataTemplate>
+        </ContentControl.DataTemplates>
+      </ContentControl>
+    </DockPanel>
 
     <!-- Command Palette -->
     <Border Grid.Row="0" Grid.RowSpan="2"
