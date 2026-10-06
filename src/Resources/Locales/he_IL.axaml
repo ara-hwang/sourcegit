@@ -637,6 +637,7 @@
   <x:String x:Key="Text.Preferences.Appearance.UseAutoHideScrollBars" xml:space="preserve">שימוש בפסי גלילה המוסתרים אוטומטית</x:String>
   <x:String x:Key="Text.Preferences.Appearance.UseFixedTabWidth" xml:space="preserve">רוחב לשונית קבוע בשורת הכותרת</x:String>
   <x:String x:Key="Text.Preferences.Appearance.UseNativeWindowFrame" xml:space="preserve">שימוש במסגרת חלון מקומית</x:String>
+  <x:String x:Key="Text.Preferences.Appearance.UseVerticalTabs" xml:space="preserve">הצג לשוניות אנכית</x:String>
   <x:String x:Key="Text.Preferences.DiffMerge" xml:space="preserve">כלי DIFF/MERGE</x:String>
   <x:String x:Key="Text.Preferences.DiffMerge.DiffArgs" xml:space="preserve">ארגומנטים ל־Diff</x:String>
   <x:String x:Key="Text.Preferences.DiffMerge.DiffArgs.Tip" xml:space="preserve">משתנים זמינים: $LOCAL, $REMOTE</x:String>
