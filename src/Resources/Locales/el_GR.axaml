@@ -629,6 +629,7 @@
   <x:String x:Key="Text.Optional" xml:space="preserve">Προαιρετικό.</x:String>
   <x:String x:Key="Text.PageTabBar.New" xml:space="preserve">Δημιουργία νέας καρτέλας</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.Close" xml:space="preserve">Κλείσιμο καρτέλας</x:String>
+  <x:String x:Key="Text.PageTabBar.Tab.CloseBelow" xml:space="preserve">Κλείσιμο καρτελών από κάτω</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CloseOther" xml:space="preserve">Κλείσιμο άλλων καρτελών</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CloseRight" xml:space="preserve">Κλείσιμο καρτελών στα δεξιά</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CopyPath" xml:space="preserve">Αντιγραφή διαδρομής αποθετηρίου</x:String>

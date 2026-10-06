@@ -377,6 +377,7 @@
   <x:String x:Key="Text.Optional" xml:space="preserve">விருப்பத்தேர்வு.</x:String>
   <x:String x:Key="Text.PageTabBar.New" xml:space="preserve">புதிய பக்கத்தை உருவாக்கு</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.Close" xml:space="preserve">மூடு தாவல்</x:String>
+  <x:String x:Key="Text.PageTabBar.Tab.CloseBelow" xml:space="preserve">கீழே உள்ள தாவல்களை மூடு</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CloseOther" xml:space="preserve">பிற தாவல்களை மூடு</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CloseRight" xml:space="preserve">வலதுபுறத்தில் உள்ள தாவல்களை மூடு</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CopyPath" xml:space="preserve">களஞ்சிய பாதை நகலெடு</x:String>

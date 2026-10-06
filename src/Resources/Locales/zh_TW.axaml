@@ -644,6 +644,7 @@
   <x:String x:Key="Text.Optional" xml:space="preserve">選填。</x:String>
   <x:String x:Key="Text.PageTabBar.New" xml:space="preserve">新增分頁</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.Close" xml:space="preserve">關閉分頁</x:String>
+  <x:String x:Key="Text.PageTabBar.Tab.CloseBelow" xml:space="preserve">關閉下方分頁</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CloseOther" xml:space="preserve">關閉其他分頁</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CloseRight" xml:space="preserve">關閉右側分頁</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CopyPath" xml:space="preserve">複製存放庫路徑</x:String>

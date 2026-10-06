@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 
 using Avalonia.Controls;
@@ -9,6 +9,8 @@ namespace SourceGit.Views
 {
     public class LauncherTabBarBase : UserControl
     {
+        protected virtual string CloseFollowingTabsTextKey => "PageTabBar.Tab.CloseRight";
+
         protected void OnPointerPressedTab(object sender, PointerPressedEventArgs e)
         {
             if (sender is Border border)
@@ -188,7 +190,7 @@ namespace SourceGit.Views
                 menu.Items.Add(closeOthers);
 
                 var closeRight = new MenuItem();
-                closeRight.Header = App.Text("PageTabBar.Tab.CloseRight");
+                closeRight.Header = App.Text(CloseFollowingTabsTextKey);
                 closeRight.Click += (_, ev) =>
                 {
                     vm.CloseRightTabs();

@@ -382,6 +382,7 @@
   <x:String x:Key="Text.Optional" xml:space="preserve">Opcional.</x:String>
   <x:String x:Key="Text.PageTabBar.New" xml:space="preserve">Criar Nova Página</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.Close" xml:space="preserve">Fechar Aba</x:String>
+  <x:String x:Key="Text.PageTabBar.Tab.CloseBelow" xml:space="preserve">Fechar Abas Abaixo</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CloseOther" xml:space="preserve">Fechar Outras Abas</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CloseRight" xml:space="preserve">Fechar Abas à Direita</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CopyPath" xml:space="preserve">Copiar Caminho do Repositório</x:String>

@@ -630,6 +630,7 @@
   <x:String x:Key="Text.Optional" xml:space="preserve">Opsional.</x:String>
   <x:String x:Key="Text.PageTabBar.New" xml:space="preserve">Buat Tab Baru</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.Close" xml:space="preserve">Tutup Tab</x:String>
+  <x:String x:Key="Text.PageTabBar.Tab.CloseBelow" xml:space="preserve">Tutup Tab di Bawah</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CloseOther" xml:space="preserve">Tutup Tab Lain</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CloseRight" xml:space="preserve">Tutup Tab di Kanan</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CopyPath" xml:space="preserve">Salin Jalur Repositori</x:String>

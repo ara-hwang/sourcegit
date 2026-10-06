@@ -598,6 +598,7 @@
   <x:String x:Key="Text.Optional" xml:space="preserve">לא חובה.</x:String>
   <x:String x:Key="Text.PageTabBar.New" xml:space="preserve">צור לשונית חדשה</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.Close" xml:space="preserve">סגור לשונית</x:String>
+  <x:String x:Key="Text.PageTabBar.Tab.CloseBelow" xml:space="preserve">סגור לשוניות מתחת</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CloseOther" xml:space="preserve">סגור לשוניות אחרות</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CloseRight" xml:space="preserve">סגור לשוניות מימין</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CopyPath" xml:space="preserve">העתק נתיב המאגר</x:String>

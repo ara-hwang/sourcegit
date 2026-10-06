@@ -598,6 +598,7 @@
   <x:String x:Key="Text.Optional" xml:space="preserve">Optionnel.</x:String>
   <x:String x:Key="Text.PageTabBar.New" xml:space="preserve">Créer un nouvel onglet</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.Close" xml:space="preserve">Fermer l'onglet</x:String>
+  <x:String x:Key="Text.PageTabBar.Tab.CloseBelow" xml:space="preserve">Fermer les onglets en dessous</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CloseOther" xml:space="preserve">Fermer les autres onglets</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CloseRight" xml:space="preserve">Fermer les onglets à droite</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.CopyPath" xml:space="preserve">Copier le chemin vers le dépôt</x:String>
